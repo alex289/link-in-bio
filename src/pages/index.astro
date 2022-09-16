@@ -1,8 +1,3 @@
----
-import { Image } from '@astrojs/image/components';
-import profilePic from '../../images/konietzko_alexander.webp';
----
-
 <!doctype html>
 <html lang="en">
   <head>
@@ -44,7 +39,7 @@ import profilePic from '../../images/konietzko_alexander.webp';
   <body>
     <main class="context">
       <header>
-        <Image src={profilePic} alt="Profile picture" width={600} height={600} quality={100} />
+        <img src="./images/konietzko_alexander.webp" alt="Profile picture" />
         <h1>@alex289</h1>
       </header>
       <ul class="links-list">
