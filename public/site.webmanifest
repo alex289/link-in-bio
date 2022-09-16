@@ -1,0 +1,23 @@
+{
+  "name": "Alexander Konietzko - Links",
+  "description": "My personal links",
+  "start_url": "/",
+  "background_color": "#4e54c8",
+  "theme_color": "#222222",
+  "short_name": "Alex",
+  "display": "standalone",
+  "orientation": "portrait",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "/icon/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
