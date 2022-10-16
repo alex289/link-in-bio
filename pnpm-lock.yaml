@@ -1,12 +1,14 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@astrojs/vercel': ^2.2.0
   '@juanm04/astrojs-vercel': 1.1.0-beta.3
   astro: ^1.5.0
   prettier: ^2.7.1
   prettier-plugin-astro: ^0.5.5
 
 dependencies:
+  '@astrojs/vercel': 2.2.0
   '@juanm04/astrojs-vercel': 1.1.0-beta.3
   astro: 1.5.0
 
@@ -114,6 +116,16 @@ packages:
       node-fetch: 3.2.10
       which-pm-runs: 1.1.0
     transitivePeerDependencies:
+      - supports-color
+    dev: false
+
+  /@astrojs/vercel/2.2.0:
+    resolution: {integrity: sha512-gqi4ij3RwInj9/O90HKMc82Fo08Gd1TjfbrSAlHzf8Ywno+4Br36vMuuvdgD6Rn6l7EuP2BYiR9zlG2yh2D0tA==}
+    dependencies:
+      '@astrojs/webapi': 1.1.0
+      '@vercel/nft': 0.22.1
+    transitivePeerDependencies:
+      - encoding
       - supports-color
     dev: false
 
@@ -642,6 +654,26 @@ packages:
       - supports-color
     dev: false
 
+  /@vercel/nft/0.22.1:
+    resolution: {integrity: sha512-lYYZIoxRurqDOSoVIdBicGnpUIpfyaS5qVjdPq+EfI285WqtZK3NK/dyCkiyBul+X2U2OEhRyeMdXPCHGJbohw==}
+    hasBin: true
+    dependencies:
+      '@mapbox/node-pre-gyp': 1.0.10
+      acorn: 8.8.0
+      async-sema: 3.1.1
+      bindings: 1.5.0
+      estree-walker: 2.0.2
+      glob: 7.2.3
+      graceful-fs: 4.2.10
+      micromatch: 4.0.5
+      node-gyp-build: 4.5.0
+      resolve-from: 5.0.0
+      rollup-pluginutils: 2.8.2
+    transitivePeerDependencies:
+      - encoding
+      - supports-color
+    dev: false
+
   /@vscode/emmet-helper/2.8.4:
     resolution: {integrity: sha512-lUki5QLS47bz/U8IlG9VQ+1lfxMtxMZENmU5nu4Z71eOD5j9FK0SmYGL5NiVJg9WBWeAU0VxRADMY2Qpq7BfVg==}
     dependencies:
@@ -833,6 +865,10 @@ packages:
       - supports-color
       - terser
       - ts-node
+    dev: false
+
+  /async-sema/3.1.1:
+    resolution: {integrity: sha512-tLRNUXati5MFePdAk8dw7Qt7DpxPB60ofAgn8WRhW6a2rcimZnYBP9oxHiv0OHy+Wz7kPMG+t4LGdt31+4EmGg==}
     dev: false
 
   /bail/2.0.2:
