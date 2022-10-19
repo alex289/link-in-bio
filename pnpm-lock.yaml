@@ -1,14 +1,14 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@astrojs/vercel': ^2.3.0
-  astro: ^1.5.1
+  '@astrojs/vercel': ^2.3.1
+  astro: ^1.5.2
   prettier: ^2.7.1
   prettier-plugin-astro: ^0.6.0
 
 dependencies:
-  '@astrojs/vercel': 2.3.0
-  astro: 1.5.1
+  '@astrojs/vercel': 2.3.1
+  astro: 1.5.2
 
 devDependencies:
   prettier: 2.7.1
@@ -117,8 +117,8 @@ packages:
       - supports-color
     dev: false
 
-  /@astrojs/vercel/2.3.0:
-    resolution: {integrity: sha512-sEe388Y1Ze/7jcTYYtafvGnpNWD1eVVNCPJuEH1nxhTX7HyGT0U8S4Cs54ETh4tgYLbPUBQlpAJGFgeZLM07NQ==}
+  /@astrojs/vercel/2.3.1:
+    resolution: {integrity: sha512-CrGH/5FKR8XL6LP1Y5nJkHEJbbrM3o1ViEF6REvuRNRuXdw150FGgi+mu66LdOlCKDv9tcPXsF9e9C2A8Kl5Rg==}
     dependencies:
       '@astrojs/webapi': 1.1.0
       '@vercel/nft': 0.22.1
@@ -738,8 +738,8 @@ packages:
       tslib: 2.4.0
     dev: false
 
-  /astro/1.5.1:
-    resolution: {integrity: sha512-jHJ0NeaGEhGkp+z7wBlNtb8s7HVFkudNJaCJO1AXk7e2AhhcPrtiueRpjDK1QWkixWHF1EYNhav7TNqJscodMw==}
+  /astro/1.5.2:
+    resolution: {integrity: sha512-ZzPwZYo4GgwNBiOA7xumpkbKNVT/k/ZEvEkAL2lj3NAZHnU801wk9qLlugu8ECoLT4k1j9B/SSmhLr+AhLTazw==}
     engines: {node: ^14.18.0 || >=16.12.0, npm: '>=6.14.0'}
     hasBin: true
     dependencies:
