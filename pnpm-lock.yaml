@@ -1,18 +1,18 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@astrojs/vercel': ^2.2.0
-  astro: ^1.5.0
+  '@astrojs/vercel': ^2.3.0
+  astro: ^1.5.1
   prettier: ^2.7.1
-  prettier-plugin-astro: ^0.5.5
+  prettier-plugin-astro: ^0.6.0
 
 dependencies:
-  '@astrojs/vercel': 2.2.0
-  astro: 1.5.0
+  '@astrojs/vercel': 2.3.0
+  astro: 1.5.1
 
 devDependencies:
   prettier: 2.7.1
-  prettier-plugin-astro: 0.5.5
+  prettier-plugin-astro: 0.6.0
 
 packages:
 
@@ -26,10 +26,10 @@ packages:
 
   /@astrojs/compiler/0.23.5:
     resolution: {integrity: sha512-vBMPy9ok4iLapSyCCT1qsZ9dK7LkVFl9mObtLEmWiec9myGHS9h2kQY2xzPeFNJiWXUf9O6tSyQpQTy5As/p3g==}
+    dev: false
 
   /@astrojs/compiler/0.27.2:
     resolution: {integrity: sha512-VG4X87cUkcmT40HqEwShQzUgl0VSnVTszobbmnhAOkHzdoWMxhwAm61A2o5fEsv6eEK8M0lW/fGwkSofYM5GcQ==}
-    dev: false
 
   /@astrojs/language-server/0.26.2:
     resolution: {integrity: sha512-9nkfdd6CMXLDIJojnwbYu5XrYfOI+g63JlktOlpFCwFjFNpm1u0e/+pXXmj6Zs+PkSTo0kV1UM77dRKRS5OC1Q==}
@@ -117,8 +117,8 @@ packages:
       - supports-color
     dev: false
 
-  /@astrojs/vercel/2.2.0:
-    resolution: {integrity: sha512-gqi4ij3RwInj9/O90HKMc82Fo08Gd1TjfbrSAlHzf8Ywno+4Br36vMuuvdgD6Rn6l7EuP2BYiR9zlG2yh2D0tA==}
+  /@astrojs/vercel/2.3.0:
+    resolution: {integrity: sha512-sEe388Y1Ze/7jcTYYtafvGnpNWD1eVVNCPJuEH1nxhTX7HyGT0U8S4Cs54ETh4tgYLbPUBQlpAJGFgeZLM07NQ==}
     dependencies:
       '@astrojs/webapi': 1.1.0
       '@vercel/nft': 0.22.1
@@ -738,8 +738,8 @@ packages:
       tslib: 2.4.0
     dev: false
 
-  /astro/1.5.0:
-    resolution: {integrity: sha512-xwneXjRT4FChouSe/cj6oJVU6Ux7Fd/7rfnh3mPlB9PTbN5UwnfCI5MjR7rTc93i169Jjh93FndrxmGX45sQBw==}
+  /astro/1.5.1:
+    resolution: {integrity: sha512-jHJ0NeaGEhGkp+z7wBlNtb8s7HVFkudNJaCJO1AXk7e2AhhcPrtiueRpjDK1QWkixWHF1EYNhav7TNqJscodMw==}
     engines: {node: ^14.18.0 || >=16.12.0, npm: '>=6.14.0'}
     hasBin: true
     dependencies:
@@ -3035,6 +3035,17 @@ packages:
       prettier: 2.7.1
       sass-formatter: 0.7.5
       synckit: 0.7.3
+    dev: false
+
+  /prettier-plugin-astro/0.6.0:
+    resolution: {integrity: sha512-xU67TzyGi1u/pwVbEh55AwoOfcOpsh9BtD2MpUAEVrViAcdrBDcmA9VN0edLgla7f2NYu8ntGakxTSrSNFv1mQ==}
+    engines: {node: ^14.15.0 || >=16.0.0, npm: '>=6.14.0'}
+    dependencies:
+      '@astrojs/compiler': 0.27.2
+      prettier: 2.7.1
+      sass-formatter: 0.7.5
+      synckit: 0.8.4
+    dev: true
 
   /prettier/2.7.1:
     resolution: {integrity: sha512-ujppO+MkdPqoVINuDFDRLClm7D78qbDt0/NR+wp5FqEZOoTNAjPHWj17QRhu7geIHJfcNhRk1XVQmF8Bp3ye+g==}
@@ -3492,6 +3503,15 @@ packages:
     dependencies:
       '@pkgr/utils': 2.3.1
       tslib: 2.4.0
+    dev: false
+
+  /synckit/0.8.4:
+    resolution: {integrity: sha512-Dn2ZkzMdSX827QbowGbU/4yjWuvNaCoScLLoMo/yKbu+P4GBR6cRGKZH27k6a9bRzdqcyd1DE96pQtQ6uNkmyw==}
+    engines: {node: ^14.18.0 || >=16.0.0}
+    dependencies:
+      '@pkgr/utils': 2.3.1
+      tslib: 2.4.0
+    dev: true
 
   /tar/6.1.11:
     resolution: {integrity: sha512-an/KZQzQUkZCkuoAA64hM92X0Urb6VpRhAFllDzz44U2mcD5scmT3zBc4VgVpkugF580+DQn8eAFSyoQt0tznA==}
