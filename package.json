@@ -13,10 +13,10 @@
   },
   "dependencies": {
     "@astrojs/vercel": "^2.3.2",
-    "astro": "^1.5.3"
+    "astro": "^1.6.1"
   },
   "devDependencies": {
     "prettier": "^2.7.1",
-    "prettier-plugin-astro": "^0.6.0"
+    "prettier-plugin-astro": "^0.7.0"
   }
 }
