@@ -12,8 +12,8 @@
     "format": "prettier -w src/**/*.astro"
   },
   "dependencies": {
-    "@astrojs/vercel": "^2.3.3",
-    "astro": "^1.6.3"
+    "@astrojs/vercel": "^2.3.4",
+    "astro": "^1.6.9"
   },
   "devDependencies": {
     "prettier": "^2.7.1",
