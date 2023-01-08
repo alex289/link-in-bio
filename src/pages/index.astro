@@ -43,25 +43,25 @@
         <h1>@alex289</h1>
       </header>
       <ul class="links-list">
-        <li>
+        <li class="grow">
           <a href="https://alexanderkonietzko.vercel.app" target="_blank" rel="noopener norefferer">
             <img src="./images/homepage.svg" alt="Homepage" width="20" height="20" />
-            Official Website
+            My Personal Site
           </a>
         </li>
-        <li>
+        <li class="grow">
           <a href="https://what-do-we-eat.vercel.app" target="_blank" rel="noopener norefferer">
             <img src="./images/food.webp" alt="What-do-we-eat" width="20" height="20" />
             What-do-we-eat
           </a>
         </li>
-	      <li>
+	      <li class="grow">
 	        <a href="https://github.com/alex289" target="_blank" rel="noopener norefferer">
 		        <img src="./images/github.svg" alt="GitHub" width="20" height="20" />
 		        GitHub
 	        </a>
 	      </li>
-        <li>
+        <li class="grow">
           <a href="https://twitter.com/_alex289" target="_blank" rel="noopener norefferer">
             <img src="./images/twitter.svg" alt="Twitter" width="20" height="20" />
             Twitter
@@ -87,12 +87,12 @@
 </html>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
 
 body, html {
   margin: 0;
   padding: 0;
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'Inter', sans-serif;
   color: #fff;
   background: #4e54c8;
 }
@@ -112,7 +112,7 @@ header > img {
 
 header > h1 {
   display: inline-block;
-  font-size: 0.8em;
+  font-size: 0.9em;
   font-weight: bold;
   border-radius: 1em;
   background-color: #000a;
@@ -279,5 +279,10 @@ a {
         border-radius: 50%;
     }
 
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .grow { transition: all .1s ease-in-out; }
+  .grow:hover { transform: scale(1.05); }
 }
 </style>
