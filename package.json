@@ -9,7 +9,7 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "format": "prettier -w src/**/*.astro"
+    "format": "prettier -w ."
   },
   "dependencies": {
     "@astrojs/vercel": "^2.4.0",

@@ -1,5 +1,5 @@
 module.exports = {
-  endOfLine: auto,
+  endOfLine: 'auto',
   bracketSameLine: true,
   singleQuote: true,
   plugins: [require.resolve('prettier-plugin-astro')],
