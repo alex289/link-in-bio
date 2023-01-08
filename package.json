@@ -9,13 +9,17 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "format": "prettier -w ."
+    "format": "prettier -w . '!pnpm-lock.yaml'",
+    "lint": "eslint ."
   },
   "dependencies": {
     "@astrojs/vercel": "^2.4.0",
     "astro": "^1.9.1"
   },
   "devDependencies": {
+    "@typescript-eslint/parser": "^5.48.0",
+    "eslint": "^8.31.0",
+    "eslint-plugin-astro": "^0.21.1",
     "prettier": "^2.8.2",
     "prettier-plugin-astro": "^0.7.2"
   }
