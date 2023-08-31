@@ -1,4 +1,9 @@
-<!DOCTYPE html>
+---
+import { Image } from 'astro:assets';
+import localImage from '../../public/images/konietzko_alexander.webp';
+---
+
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -36,7 +41,7 @@
   <body>
     <main class="context">
       <header>
-        <img src="./images/konietzko_alexander.webp" alt="Profile picture" />
+        <Image src={localImage} alt="Profile picture" />
         <h1>@alex289</h1>
       </header>
       <ul class="links-list">
@@ -45,7 +50,7 @@
             href="https://alexanderkonietzko.vercel.app"
             target="_blank"
             rel="noopener norefferer">
-            <img
+            <Image
               src="./images/homepage.svg"
               alt="Homepage"
               width="20"
@@ -59,7 +64,7 @@
             href="https://what-do-we-eat.vercel.app"
             target="_blank"
             rel="noopener norefferer">
-            <img
+            <Image
               src="./images/food.webp"
               alt="What-do-we-eat"
               width="20"
@@ -73,7 +78,7 @@
             href="https://github.com/alex289"
             target="_blank"
             rel="noopener norefferer">
-            <img
+            <Image
               src="./images/github.svg"
               alt="GitHub"
               width="20"
@@ -87,7 +92,7 @@
             href="https://twitter.com/_alex289"
             target="_blank"
             rel="noopener norefferer">
-            <img
+            <Image
               src="./images/twitter.svg"
               alt="Twitter"
               width="20"
