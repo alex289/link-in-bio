@@ -1,8 +1,9 @@
-module.exports = {
+/** @type {import('prettier').Config} */
+const config = {
   endOfLine: 'auto',
   bracketSameLine: true,
   singleQuote: true,
-  plugins: [require.resolve('prettier-plugin-astro')],
+  plugins: ['prettier-plugin-astro'],
   overrides: [
     {
       files: '*.astro',
@@ -12,3 +13,5 @@ module.exports = {
     },
   ],
 };
+
+export default config;

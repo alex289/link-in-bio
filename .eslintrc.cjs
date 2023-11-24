@@ -1,4 +1,5 @@
-module.exports = {
+/** @type {import("eslint").Linter.Config} */
+var config = {
   extends: ['plugin:astro/recommended'],
   overrides: [
     {
@@ -8,10 +9,8 @@ module.exports = {
         parser: '@typescript-eslint/parser',
         extraFileExtensions: ['.astro'],
       },
-      rules: {
-        // override/add rules settings here, such as:
-        // "astro/no-set-html-directive": "error"
-      },
     },
   ],
 };
+
+module.exports = config;
