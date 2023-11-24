@@ -61,14 +61,7 @@ import localImage from '../../public/images/konietzko_alexander.webp';
             href="https://alexanderkonietzko.vercel.app"
             target="_blank"
             rel="noopener norefferer">
-            <Image
-              src="/images/homepage.svg"
-              alt="Homepage"
-              loading="eager"
-              width="20"
-              height="20"
-            />
-             My Portfolio Website
+            My Portfolio Website
           </a>
         </li>
         <li class="grow">
@@ -76,13 +69,7 @@ import localImage from '../../public/images/konietzko_alexander.webp';
             href="https://what-do-we-eat.vercel.app"
             target="_blank"
             rel="noopener norefferer">
-            <Image
-              src="/images/food.webp"
-              alt="What-do-we-eat"
-              width="20"
-              height="20"
-            />
-             What-do-we-eat
+            What-do-we-eat
           </a>
         </li>
         <li class="grow">
@@ -95,8 +82,8 @@ import localImage from '../../public/images/konietzko_alexander.webp';
               alt="GitHub"
               width="20"
               height="20"
+              class="invert-icons"
             />
-             GitHub
           </a>
         </li>
         <li class="grow">
@@ -104,8 +91,13 @@ import localImage from '../../public/images/konietzko_alexander.webp';
             href="https://twitter.com/_alex289"
             target="_blank"
             rel="noopener norefferer">
-            <Image src="/images/twitter.svg" alt="X" width="20" height="20" />
-             Twitter/X
+            <Image
+              src="/images/twitter.svg"
+              alt="X"
+              width="20"
+              height="20"
+              class="invert-icons"
+            />
           </a>
         </li>
       </ul>
@@ -186,6 +178,10 @@ import localImage from '../../public/images/konietzko_alexander.webp';
       gap: 0.5em;
       color: #eee;
       padding: 1em;
+    }
+
+    .invert-icons {
+      filter: invert(100%);
     }
 
     a {
