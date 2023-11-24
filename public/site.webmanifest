@@ -2,7 +2,7 @@
   "name": "Alexander Konietzko - Links",
   "description": "My personal links",
   "start_url": "/",
-  "background_color": "#4e54c8",
+  "background_color": "#fff",
   "theme_color": "#222222",
   "short_name": "Alex",
   "display": "standalone",
