@@ -179,7 +179,7 @@ import localImage from '../../public/images/konietzko_alexander.webp';
       justify-content: center;
       align-items: center;
       gap: 0.5em;
-      color: #eee;
+      color: #111;
       padding: 1em;
     }
 
@@ -193,10 +193,6 @@ import localImage from '../../public/images/konietzko_alexander.webp';
 
     .icon-links-list > div > a {
       padding: 1em;
-    }
-
-    .invert-icons {
-      filter: invert(100%);
     }
 
     a {
@@ -278,6 +274,20 @@ import localImage from '../../public/images/konietzko_alexander.webp';
     }
 
     @media (prefers-color-scheme: dark) {
+      .invert-icons {
+        filter: invert(100%);
+      }
+
+      .links-list > li > a {
+        color: #eee;
+      }
+
+      .links-list > li {
+        background: rgba(0, 0, 0, 0.2);
+        box-shadow: 0 4px 30px rgba(255, 255, 255, 0.1);
+        border: 1px solid rgba(0, 0, 0, 0.3);
+      }
+
       html {
         background-color: #000;
         color: #fff;
