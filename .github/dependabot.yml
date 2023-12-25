@@ -14,3 +14,7 @@ updates:
       dependencies:
         patterns:
           - "*"
+    assignees:
+      - "alex289"
+    reviewers:
+      - "alex289"
