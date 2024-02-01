@@ -14,13 +14,13 @@
   },
   "dependencies": {
     "@astrojs/vercel": "^7.0.2",
-    "astro": "^4.2.6",
+    "astro": "^4.2.8",
     "sharp": "^0.33.2"
   },
   "devDependencies": {
     "@typescript-eslint/parser": "^6.20.0",
     "eslint": "^8.56.0",
-    "eslint-plugin-astro": "^0.31.3",
+    "eslint-plugin-astro": "^0.31.4",
     "prettier": "^3.2.4",
     "prettier-plugin-astro": "^0.13.0"
   }
