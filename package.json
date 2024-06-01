@@ -13,7 +13,7 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "@astrojs/vercel": "^7.5.4",
+    "@astrojs/vercel": "^7.6.0",
     "astro": "^4.7.0",
     "sharp": "^0.33.3"
   },
@@ -22,6 +22,6 @@
     "eslint": "^9.1.1",
     "eslint-plugin-astro": "^1.1.1",
     "prettier": "^3.2.5",
-    "prettier-plugin-astro": "^0.13.0"
+    "prettier-plugin-astro": "^0.14.0"
   }
 }
