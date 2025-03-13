@@ -5,6 +5,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "files.exclude": {
-    ".vercel": true
+    ".vercel": true,
+    ".astro": true
   }
 }
