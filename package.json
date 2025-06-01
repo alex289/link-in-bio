@@ -13,7 +13,7 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "astro": "^5.7.10",
+    "astro": "^5.8.1",
     "sharp": "^0.34.1"
   },
   "devDependencies": {
