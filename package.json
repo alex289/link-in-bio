@@ -13,12 +13,12 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "astro": "^5.17.1",
+    "astro": "^5.18.0",
     "sharp": "^0.34.5"
   },
   "devDependencies": {
-    "eslint": "^9.39.2",
-    "eslint-plugin-astro": "^1.5.0",
+    "eslint": "^10.0.2",
+    "eslint-plugin-astro": "^1.6.0",
     "prettier": "^3.8.1",
     "prettier-plugin-astro": "^0.14.1"
   }
